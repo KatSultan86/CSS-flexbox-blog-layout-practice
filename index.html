@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Your Title</title>
+    <title>Blog Layout</title>
 </head>
+
 <body>
-    
+    <!-- the whole layout of the page -->
+    <div class="container">
+        <!-- my blog header -->
+
+        <head class="header">
+            <div class="brand">My Blog</div>
+            <nav class="navbar">
+                <a href="#">Home</a>
+                <a href="#">Article</a>
+                <a href="#">About</a>
+                <a href="#">Membership</a>
+                <a href="#">Contact</a>
+            </nav>
+        </head>
+        <!-- the main content of the page -->
+        <main class="main">
+            <section class="section">
+                <article class="article">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, enim!</p>
+                    <!-- to make it easier to manipulate with an image, we have to put it in a div container -->
+                    <div class="image">
+                        <img src="" alt="Nice Image">
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto officia, culpa consequatur
+                        sunt hic unde at dicta sint veniam ea consequuntur soluta vero sapiente expedita nostrum eos
+                        ullam maxime. Ea odio illum quo temporibus. Nobis fuga iste exercitationem officiis labore
+                        magnam quis voluptatum quisquam, eveniet suscipit nam autem. Officiis, modi!
+                    </p>
+                </article>
+            </section>
+            <aside class="sidebar">
+                <!-- 3 divs for each section in the sidebar -->
+                <div class="card">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ullam possimus error consequatur
+                        totam voluptatibus sit? Nobis, iure quam. Dolore?
+                    </p>
+                </div>
+                <div class="card">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ullam possimus error consequatur
+                        totam voluptatibus sit? Nobis, iure quam. Dolore?
+                    </p>
+                </div>
+                <div class="card">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ullam possimus error consequatur
+                        totam voluptatibus sit? Nobis, iure quam. Dolore?
+                    </p>
+                </div>
+            </aside>
+        </main>
+        <footer class="footer">
+          <!-- can be dev, p, h2..... -->
+           <div>&copy; 2024 My Blog</div>
+           <div>Build With HTML & CSS</div>
+        </footer>
+    </div>
 </body>
+
 </html>
